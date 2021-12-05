@@ -1,0 +1,69 @@
+### Request
+PUT http://127.0.0.1:5000/ HTTP/1.1
+content-type: application/json
+
+{
+  "artist" : "The Yousicians",
+  "title" : "Lycanthropic Metamorphosis",
+  "difficulty" : 14.6,
+  "level" : 13,
+  "released" :  "2016-10-26"
+}
+
+### Request
+PUT http://127.0.0.1:5000/ HTTP/1.1
+content-type: application/json
+
+{
+  "artist" : "The Yousicians",
+  "title" : "A New Kennel",
+  "difficulty" : 9.1,
+  "level" : 9,
+  "released" :  "2010-02-03"
+}
+
+### Request
+PUT http://127.0.0.1:5000/ HTTP/1.1
+content-type: application/json
+
+ {
+  "artist" : "Mr Fastfinger",
+  "title" : "Awaki-Waki",
+  "difficulty" : 15,
+  "level" : 13,
+  "released" :  "2012-05-11"
+}
+
+### Request
+POST http://127.0.0.1:5000/ HTTP/1.1
+content-type: application/json
+
+{
+  "song_id" : 14,
+  "rating" : 6
+}
+
+### Request
+GET http://127.0.0.1:5000 HTTP/1.1
+content-type: application/json
+
+### Request
+GET http://127.0.0.1:5000?page=3&per_page=2 HTTP/1.1
+content-type: application/json
+
+### Request
+GET http://127.0.0.1:5000/difficulty HTTP/1.1
+content-type: application/json
+
+
+### Request
+GET http://127.0.0.1:5000/difficulty?level=13 HTTP/1.1
+content-type: application/json
+
+### Request
+GET http://127.0.0.1:5000/search?message=Fastfinger HTTP/1.1
+content-type: application/json
+
+### Request
+GET http://127.0.0.1:5000/search?message=Waki HTTP/1.1
+content-type: application/json
