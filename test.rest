@@ -65,5 +65,5 @@ GET http://127.0.0.1:5000/search?message=Fastfinger HTTP/1.1
 content-type: application/json
 
 ### Request
-GET http://127.0.0.1:5000/search?message=Waki HTTP/1.1
+GET http://127.0.0.1:5000/search?message=Yous HTTP/1.1
 content-type: application/json
